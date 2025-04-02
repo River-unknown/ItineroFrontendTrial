@@ -1,5 +1,5 @@
 # Travel Itinerary Generator 🌍✈️
-[Live Demo]([https://itinerofrontendtrial.onrender.com])
+[Live Demo](https://itinerofrontendtrial.onrender.com)
 
 A React-based frontend for generating personalized travel itineraries with PDF export capability.
 
