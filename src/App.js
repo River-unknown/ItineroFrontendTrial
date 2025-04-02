@@ -271,7 +271,7 @@ function App() {
         }
 
         try {
-            const response = await axios.post('http://127.0.0.1:5000/generate_itinerary', formData);
+            const response = await axios.post('https://itinerobackendtrial.onrender.com/generate_itinerary', formData);
             setItinerary(response.data.itinerary_text);
             alert("Itinerary generated successfully!");
         } catch (err) {
@@ -285,7 +285,7 @@ function App() {
     const handleDownloadPdf = async () => {
         setIsLoading(true);
         try {
-            const response = await axios.get('http://127.0.0.1:5000/download_pdf', {
+            const response = await axios.get('https://itinerobackendtrial.onrender.com/download_pdf', {
                 responseType: 'blob',
             });
 
